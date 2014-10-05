@@ -1,0 +1,29 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#map": {
+    userLocation: true,
+    animate: true,
+    top: 0,
+    region: { latitude: Alloy.Globals.html_latitude, latitudeDelta: 0.05, 
+       longitude: Alloy.Globals.html_longitude, longitudeDelta: 0.05 	}
+},
+
+"#here" : {
+	image: "images/center.jpeg",
+	width:40,
+	height:40,
+	bottom : 10,
+	left : 10,
+	zIndex:0
+}
+
+"#html_it" : {
+	image: "images/logo.png",
+	width:40,
+	height:40,
+	bottom : 10,
+	right : 10,
+	zIndex:0
+}

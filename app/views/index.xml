@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<View id="map" ns="Alloy.Globals.Map"></View>
+		<ImageView id="html_it" onClick="html_it"></ImageView>
+		<ImageView id="here" onClick="here"></ImageView>
+	</Window>
+</Alloy>
